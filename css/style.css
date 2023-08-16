@@ -9,15 +9,23 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h3 {
-    font-size: 117%;
-}
 
-il {
-    padding: 2px 0px;
+
+
+.table-list>li {
+    padding: 15px 2px 0px 2px;
+    border-bottom: 4px solid #B93B50;
+    font-size: x-large;
 }
 
 button.primary {
+    border: none;
+    color: white;
+    border-radius: 30px;
+    background-color: #F7A400;
+}
+
+button.secondary {
     border: none;
     color: white;
     border-radius: 30px;
@@ -38,21 +46,32 @@ nav > img {
 
 }
 
-.hero-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 50px;
+
+
+.container {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.logo-banner > img {
+    display: inline;
+    height: 100px;
+    margin: 0 40px;
+
+}
+
+
 
 .box {
     margin: 150px 30px;
+    padding: 0 30px;
 }
 
 .table-container {
     border-color: #B93B50;
 }
+
 
 .membership {
     background-color: #7F91A4;
