@@ -16,6 +16,7 @@ body {
     padding: 15px 2px 0px 2px;
     border-bottom: 4px solid #B93B50;
     font-size: x-large;
+    font-weight: 500;
 }
 
 button.primary {
@@ -52,20 +53,22 @@ nav > img {
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 50px;
 }
 
 .logo-banner > img {
     display: inline;
-    height: 100px;
-    margin: 0 40px;
+    max-height: 80px;
+
 
 }
 
 
 
 .box {
-    margin: 150px 30px;
-    padding: 0 30px;
+  
+    width: 30%;
 }
 
 .table-container {
@@ -79,7 +82,7 @@ nav > img {
 
 .level-box {
     background-color: #F3F8F3;
-    width: 300px;
+    max-width: 330px;
 }
 
 footer {
